@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  
+  </head>
+  <body>
+    <div id="animal list">
+      <h3>Woodland Park Zoo</h3>
+      <ul>Animals
+        <li>Brown Bear</li>
+        <li>Elk</li>
+        <li>Emu</li>
+        <li>Grey Owl</li>
+        <li>Humboldt Penguin</li>
+        <li>Mountain Goat</li>
+        <li>Otter</li>
+        <li>Porcupine</li>
+        <li>Sea Eagle</li>
+        <li>Snow Leopard</li>
+        <li>Wallaby</li>
+        <li>Wallaroo</li>
+        <li>Wolf</li>
+      
+      </ul>
+    </div>
+
+    <div id="map"></div>
+    <!--<script>
+      function initMap() {
+        var woodLandParkZoo = {lat: 47.6685, lng: -122.351};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: woodLandParkZoo
+        });
+        var marker = new google.maps.Marker({
+          position: woodLandParkZoo,
+          map: map
+        });
+      }
+    </script>-->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFIxlAJqprvGyrdEDHf6CQqUS98fSgpdk&callback=initMap">
+    </script>
+  </body>
+</html>
