@@ -14,7 +14,7 @@
       float:left;
       font-size: 100%;
       font-weight: 600;
-      margin-right: 5%;
+      margin-right: 2%;
       
   }
   body {
@@ -23,7 +23,7 @@
 
   }
   /* Woodland Park Zoo Header */
-  h3 {
+  h1 {
     font-family: 'Cinzel', serif;
     font-size: 200%;
   }
